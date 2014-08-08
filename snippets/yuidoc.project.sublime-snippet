@@ -1,0 +1,14 @@
+<snippet>
+  <content>
+<![CDATA[
+// ==========================================================================
+// Project:   ${1:Framework.Package}
+// Copyright: ©2010 Turnitin.com
+// ==========================================================================
+$0
+]]>
+  </content>
+  <tabTrigger>dproject</tabTrigger>
+  <description>Project Block - YUIDoc</description>
+  <scope>source.js</scope>
+</snippet>

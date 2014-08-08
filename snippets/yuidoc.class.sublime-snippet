@@ -2,13 +2,14 @@
   <content>
 <![CDATA[
 /**
- * ${1:[description]}
- * @uses ${2:[some other package]}
- * @class ${3:[class name]}
- * @extends ${4[parent class name]}
- * @constructor
- */
-$0
+
+${4:[description]}
+
+@uses ${1:[some other package]}
+@class ${2:[class name]}
+@extends ${3[parent class name]}
+@constructor
+*/
 ]]>
   </content>
   <tabTrigger>dclass</tabTrigger>

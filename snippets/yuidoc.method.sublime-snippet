@@ -2,14 +2,15 @@
   <content>
 <![CDATA[
 /**
- * ${1:[description]}
- * ${2:@private}:
- * @for ${3:[class name]}
- * @method ${4:[method name]}
- * @param {${5:[type]}} ${6:[param description]}
- * @return {${7:[type]}} ${8:[return description]}
- */
-$0
+
+${8:[description]}
+
+${1:@private}
+@for ${2:[class name]}
+@method ${3:[method name]}
+@param {${4:[type]}} ${5:[param description]}
+@return {${6:[type]}} ${7:[return description]}
+*/
 ]]>
   </content>
   <tabTrigger>dmeth</tabTrigger>

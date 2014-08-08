@@ -2,14 +2,15 @@
   <content>
 <![CDATA[
 /**
- * ${1:[description]}
- * ${2:@private}
- * @for ${3:[class name]}
- * @property ${4:[property name]}
- * @type {${5:[type]}}
- * @default ${6:[default value]}
- */
-$0
+
+${6:[description]}
+
+${1:@private}
+@for ${2:[class name]}
+@property ${3:[property name]}
+@type {${4:[type]}}
+@default ${5:[default value]}
+*/
 ]]>
   </content>
   <tabTrigger>dprop</tabTrigger>
