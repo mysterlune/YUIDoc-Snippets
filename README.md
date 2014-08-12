@@ -2,8 +2,7 @@ YUIDoc Snippets
 ======================
 A basic YUIDoc snippets for Sublime Text 2.
 
-Installation
-____________
+##Installation
 
 This project ships with Grunt.js tasks that can install the snippets in the proper location on your
 file system.
@@ -19,8 +18,7 @@ npm install && grunt
 This will install required NPM modules and follow up by running a Grunt.js task to copy files
 to the correct location on your (currently MacOS) file system.
 
-Usage
--------
+##Usage
 
 The default setting of "word_separators" includes an "@". In this setting, completion feature does not work well.
 Add custom setting in your `Packages/User/Preferences.sublime-settings`
@@ -29,8 +27,7 @@ Add custom setting in your `Packages/User/Preferences.sublime-settings`
 "word_separators": "./\\()\"'-:,.;<>~!#$%^&*|+=[]{}`~?"
 ```
 
-Contribute
-__________
+##Contribute
 
 __TODO__ For those lucky Windows folks out there, please feel free to contribute a `snippets.directories` entry that
 corresponds with the proper location for snippets. You can add this in `package.json`.
@@ -39,8 +36,8 @@ __TODO__ Linux users, also. Please add your OS's proper directory in `package.js
 
 Please submit a pull request.
 
-License
-----------
+##License
+
 Copyright &copy; 2013 hayate26
 Distributed under the [MIT License][mit].
  
