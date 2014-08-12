@@ -19,6 +19,58 @@ This will install required NPM modules and follow up by running a Grunt.js task 
 to the correct location on your (currently MacOS) file system.
 
 ##Usage
+The keys available for inserting snippets are:
+
+`dproject`
+
+````
+// ===================================
+// Project:   PROJECT_NAME
+// Copyright: ©YEAR COMPANY
+// ===================================
+````
+
+`dclass`
+
+````
+/**
+[DESCRIPTION]
+
+@uses [REFERENCED_PACKAGES]
+@class [CLASS_NAME]
+@extends [BASE_CLASS_NAME]
+@constructor
+*/
+````
+
+`dprop`
+
+````
+/**
+[DESCRIPTION]
+
+@private
+@for [CLASS_NAME]
+@property [PROPERTY_NAME]
+@type [DATA_TYPE]
+@default [DEFAULT_VALUE]
+*/
+````
+
+`dmeth`
+
+````
+/**
+[DESCRIPTION]
+
+@private
+@for [CLASS_NAME]
+@method [METHOD_NAME]
+@param {[TYPE]} [NAME] [DESCRIPTION]
+@return {[TYPE]} [DESCRIPTION]
+*/
+````
+Of course, YUIDoc supports a number of other comment block types. Please feel free to contribute a pull request with additions.
 
 The default setting of "word_separators" includes an "@". In this setting, completion feature does not work well.
 Add custom setting in your `Packages/User/Preferences.sublime-settings`
