@@ -23,7 +23,8 @@ module.exports = function(grunt) {
 
   config.env = process.env;
 
-  grunt.registerTask('default', ['copy:snippets']);
+  grunt.registerTask('cleanSnippets', ['clean:snippets']);
+  grunt.registerTask('default', ['cleanSnippets','copy:snippets']);
 
   grunt.initConfig(config);
 };
