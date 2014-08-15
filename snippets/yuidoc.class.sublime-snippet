@@ -2,7 +2,6 @@
   <content>
 <![CDATA[
 /**
-
 ${4:[description]}
 
 @uses ${1:[some other package]}
